@@ -34,3 +34,12 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          
+  redlightgreenlight:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Red light green light
+        run: Exit -1
